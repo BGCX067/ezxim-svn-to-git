@@ -1,0 +1,12 @@
+<clist>
+	<contact id="whoami" protocol="-1" nick="Homeless Contact" />
+	<contact id="gangster" protocol="-1" nick="Anonymous Stranger" />
+	<group name="First Group">
+		<contact id="aa" protocol="-1" nick="First contact" />
+		<contact id="bb" protocol="-1" nick="Someone" />
+		<contact id="cc" protocol="-1" nick="Alien" />
+		<contact id="dd" protocol="-1" nick="Humanoid" />
+		<contact id="ee" protocol="-1" nick="Bot" />
+		<contact id="ff" protocol="-1" nick="Strange Person" />
+	</group>
+</clist>

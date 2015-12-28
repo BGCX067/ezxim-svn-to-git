@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ezxim" />
+		<Option makefile_is_custom="1" />
+		<Option pch_mode="2" />
+		<Option compiler="armelfgcc" />
+		<Build>
+			<Target title="all">
+				<Option output="bin\Release\ezxim" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="armelfgcc" />
+			</Target>
+			<Target title="clean">
+				<Option output="ezxim" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="armelfgcc" />
+			</Target>
+			<Environment>
+				<Variable name="ARM_DEV_DIR" value="\opt\cross\gcc-arm-iwmmxt\gcc-3.3.6-glibc-2.3.2\arm-linux" />
+				<Variable name="QTDIR" value="\opt\cross\dev-ezx" />
+			</Environment>
+		</Build>
+		<Unit filename="chatwidget.cpp">
+			<Option target="all" />
+		</Unit>
+		<Unit filename="chatwidget.h">
+			<Option target="all" />
+		</Unit>
+		<Unit filename="clistcontainerwidget.cpp" />
+		<Unit filename="clistcontainerwidget.h" />
+		<Unit filename="clistutils.cpp">
+			<Option target="all" />
+		</Unit>
+		<Unit filename="clistutils.h">
+			<Option target="all" />
+		</Unit>
+		<Unit filename="clistwidget.cpp">
+			<Option target="all" />
+		</Unit>
+		<Unit filename="clistwidget.h">
+			<Option target="all" />
+		</Unit>
+		<Unit filename="im_eventlistener.cpp" />
+		<Unit filename="im_eventlistener.h" />
+		<Unit filename="im_events.cpp" />
+		<Unit filename="im_global.h" />
+		<Unit filename="im_threadctl.cpp" />
+		<Unit filename="include\im_events.h" />
+		<Unit filename="include\im_threadctl.h" />
+		<Unit filename="main.cpp">
+			<Option target="all" />
+		</Unit>
+		<Unit filename="mainwidget.cpp">
+			<Option target="all" />
+		</Unit>
+		<Unit filename="mainwidget.h">
+			<Option target="all" />
+		</Unit>
+		<Extensions>
+			<code_completion>
+				<search_path add="..\..\..\..\opt\cross\dev-ezx\include" />
+				<search_path add="/opt/cross/dev-ezx/include" />
+				<search_path add="..\..\..\..\opt\cross\dev-ezx\include\ezx" />
+				<search_path add="/opt/cross/dev-ezx/include/ezx" />
+			</code_completion>
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
